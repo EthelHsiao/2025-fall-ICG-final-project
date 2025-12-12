@@ -1,0 +1,38 @@
+## 美甲專題：Geometry Shader 高階實作劇本 (Playbook) - 技術實作部分
+
+### 專案主題：動畫與幾何著色器美甲造型 (Animation and Geometry Shader Manicure)
+### 技術目標：在指甲上生成動態生長的立體藤蔓/飾品
+### 評分參考：基礎要求 (40%) + 獨創性/技巧 (20%)
+
+---
+
+### 階段一：基礎環境建置與模型準備 (Foundation)
+
+| ID | 任務描述 (Task) | 關鍵技術與目標 | 驗收標準 (Completion Check) |
+|---|---|---|---|
+| **1.1** | **專案骨架與核心 Shader 載入** | 建立 OpenGL 專案，確保可以成功編譯並連結 Vertex Shader 和 Fragment Shader。 | 畫面成功顯示單色背景。 |
+| **1.2** | **載入手部模型** | 載入 3D 手部模型 (OBJ/FBX)。確保模型頂點、索引、UV 座標等資料能正確傳輸到 Vertex Shader。 | 模型以單一顏色成功渲染在畫面上。 |
+| **1.3** | **指甲/手部區分** | 確定指甲頂點與手部頂點的區分方式 (例如，透過頂點屬性或材質 ID)。 | 可以獨立對指甲進行操作或上色。 |
+| **1.4** | **時間 Uniform 傳遞** | 在主迴圈中，獲取當前運行時間，並將其作為 `uniform float time` 傳遞給所有 Shaders。 | 在 Fragment Shader 中，顏色可以隨時間變化。 |
+
+---
+
+### 階段二：Geometry Shader 核心架構 (GS Core Implementation)
+
+| ID | 任務描述 (Task) | 關鍵技術與目標 | 驗收標準 (Completion Check) |
+|---|---|---|---|
+| **2.1** | **Geometry Shader 設置 (I/O)** | [cite_start]創建 `manicure.geom` 檔案。設定輸入為**三角形**：`layout (triangles) in;` [cite: 32, 78][cite_start]。設定輸出為**三角形條帶**：`layout (triangle_strip, max_vertices = X) out;` [cite: 41, 79] (X 暫定為 12)。 | GS 成功連結到管線。 |
+| **2.2** | **屬性介面區塊 (Interface Block)** | [cite_start]在 Vertex Shader 中傳出法線 (`normal`) 和紋理座標 (`texCoords`)。在 Geometry Shader 中使用 `gs_in[]` [cite: 53, 82] 介面區塊接收這些變量。 | 可以在 GS 中讀取 `gs_in[index].normal` 和 `gs_in[index].texCoords`。 |
+| **2.3** | **法線計算函式** | [cite_start]實作 `vec3 GetNormal()` 函式 [cite: 90]。使用輸入三角形的三個頂點位置計算其**單位法向量** (Unit Normal)。 | 函式能夠返回正確的法向量。 |
+| **2.4** | **頂點位移動畫函式** | [cite_start]實作 `vec4 explode(vec4 position, vec3 normal)` [cite: 85][cite_start]。使用 `normal` 和 `time` uniform [cite: 84] 來計算頂點的新位置，實現動態位移。 | [cite_start]函式能夠根據時間，將頂點沿著法線方向推出 [cite: 87, 88]。 |
+
+---
+
+### 階段三：高階幾何生成與動畫 (Advanced GS Animation)
+
+| ID | 任務描述 (Task) | 關鍵技術與目標 | 驗收標準 (Completion Check) |
+|---|---|---|---|
+| **3.1** | **基礎 GS 複製** | [cite_start]在 `main()` 中，遍歷輸入頂點 (`for(int i=0; i<3; ++i)`) [cite: 69, 95][cite_start]，調用 `explode()` 函式，並使用 `EmitVertex()` [cite: 65, 73, 101] [cite_start]和 `EndPrimitive()` [cite: 66, 74, 102] 輸出**位移後的原始三角形**。 | 指甲上的三角形會隨著時間膨脹或收縮。 |
+| **3.2** | **生成飾品 - 核心演算法** | **高階部分：** 設計一個演算法，根據輸入三角形的中心點和法線，計算額外頂點的座標，用來建構一個新的立體圖元 (例如，一個小稜錐或鑽石面)。 | 程式可以顯示指甲上的三角形，並在每個三角形位置旁邊顯示一個簡單的、靜態的 3D 幾何體。 |
+| **3.3** | **生成飾品 - 動畫整合** | [cite_start]將 3.2 中生成新幾何體的頂點座標，帶入基於時間的變形函式 (例如 `explode` 或新的函式) 進行處理。在輸出時，**必須**包含：一個物件 [cite: 11] [cite_start]和 Geometry Shader 產生新的點、線或多邊形 [cite: 12]。 | 生成的 3D 飾品會隨著時間不斷地**生長**、**旋轉**或**變形**，達到複雜動畫效果。 |
+| **3.4** | **細節與紋理** | 將紋理座標 (`TexCoords`) 正確傳遞到 Fragment Shader，實現更複雜的材質或光影效果。 | [cite_start]動畫效果具備良好的視覺豐富度 (Richness and Difficulty of technique) [cite: 160]。 |

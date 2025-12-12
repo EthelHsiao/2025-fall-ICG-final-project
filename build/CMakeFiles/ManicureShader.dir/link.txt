@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ManicureShader.dir/src/main.cpp.o -o ManicureShader  /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so /usr/lib/x86_64-linux-gnu/libglfw.so.3.3 -lassimp /usr/lib/x86_64-linux-gnu/libGLEW.so 
