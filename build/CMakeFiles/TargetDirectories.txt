@@ -1,3 +1,0 @@
-/home/xinya/計圖學/ICG_2025_FP/build/CMakeFiles/ManicureShader.dir
-/home/xinya/計圖學/ICG_2025_FP/build/CMakeFiles/edit_cache.dir
-/home/xinya/計圖學/ICG_2025_FP/build/CMakeFiles/rebuild_cache.dir
