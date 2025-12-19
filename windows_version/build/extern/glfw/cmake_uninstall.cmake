@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glfw/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"D:/2025 fall/CG/ICG_2025_HW2/build/extern/glfw/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/build/extern/glfw/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/build/extern/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glfw/install_manifest.txt" files)
+file(READ "C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/build/extern/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

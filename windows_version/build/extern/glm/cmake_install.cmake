@@ -1,4 +1,4 @@
-# Install script for directory: D:/2025 fall/CG/ICG_2025_HW2/extern/glm
+# Install script for directory: C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,20 +32,13 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set path to fallback-tool for dependency-resolution.
+# Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/w64devkit/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/w64devkit/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("D:/2025 fall/CG/ICG_2025_HW2/build/extern/glm/glm/cmake_install.cmake")
-
+  # Include the install script for the subdirectory.
+  include("C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/build/extern/glm/glm/cmake_install.cmake")
 endif()
 
-string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
-       "${CMAKE_INSTALL_MANIFEST_FILES}")
-if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glm/install_local_manifest.txt"
-     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
-endif()

@@ -1,246 +1,607 @@
 extern/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj: \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/glm.cpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/gtx/dual_quaternion.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/glm.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/_fixes.hpp \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cmath \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/requires_hosted.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/cpp_type_traits.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ext/type_traits.h \
- D:/w64devkit/x86_64-w64-mingw32/include/math.h \
- D:/w64devkit/x86_64-w64-mingw32/include/crtdefs.h \
- D:/w64devkit/x86_64-w64-mingw32/include/corecrt.h \
- D:/w64devkit/x86_64-w64-mingw32/include/_mingw.h \
- D:/w64devkit/x86_64-w64-mingw32/include/_mingw_mac.h \
- D:/w64devkit/x86_64-w64-mingw32/include/_mingw_secapi.h \
- D:/w64devkit/x86_64-w64-mingw32/include/vadefs.h \
- D:/w64devkit/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_abs.h \
- D:/w64devkit/x86_64-w64-mingw32/include/stdlib.h \
- D:/w64devkit/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/limits.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
- D:/w64devkit/x86_64-w64-mingw32/include/limits.h \
- D:/w64devkit/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/stdlib.h \
- D:/w64devkit/x86_64-w64-mingw32/include/malloc.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
- D:/w64devkit/x86_64-w64-mingw32/include/errno.h \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/setup.hpp \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cassert \
- D:/w64devkit/x86_64-w64-mingw32/include/assert.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdlib \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstddef \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
- D:/w64devkit/x86_64-w64-mingw32/include/stddef.h \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/simd/platform.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdint \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
- D:/w64devkit/x86_64-w64-mingw32/include/stdint.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/type_traits \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/climits \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cfloat \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/float.h \
- D:/w64devkit/x86_64-w64-mingw32/include/float.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/limits \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/fwd.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/qualifier.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/setup.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/vec2.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_bool2.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_vec2.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_vec2.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/compute_vector_relational.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_bool2_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_float2.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_float2_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_double2.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_double2_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_int2.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_int2_sized.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/scalar_int_sized.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/setup.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_uint2.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_uint2_sized.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/scalar_uint_sized.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/vec3.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_bool3.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_vec3.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_vec3.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/compute_vector_decl.hpp \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/functional \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_function.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/move.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward/binders.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tuple \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_pair.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/utility.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/uses_allocator.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/invoke.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/functional_hash.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/hash_bytes.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/refwrap.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_function.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/new \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/exception.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/typeinfo \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/functexcept.h \
- D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/exception_defines.h \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/_vectorize.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_bool3_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_float3.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_float3_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_double3.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_double3_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_int3.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_int3_sized.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_uint3.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_uint3_sized.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/vec4.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_bool4.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_vec4.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_vec4.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_bool4_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_float4.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_float4_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_double4.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_double4_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_int4.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_int4_sized.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_uint4.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_uint4_sized.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/mat2x2.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_double2x2.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_mat2x2.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_mat2x2.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/matrix.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/mat2x3.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_double2x3.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_mat2x3.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_mat2x3.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_double2x3_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_float2x3.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_float2x3_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/mat2x4.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_double2x4.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_mat2x4.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_mat2x4.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_double2x4_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_float2x4.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_float2x4_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/mat3x2.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_double3x2.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_mat3x2.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_mat3x2.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_double3x2_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_float3x2.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_float3x2_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/mat3x3.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_double3x3.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_mat3x3.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_mat3x3.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/common.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/func_common.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/vector_relational.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/func_vector_relational.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/compute_common.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_vec1.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_vec1.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_double3x3_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_float3x3.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_float3x3_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/mat3x4.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_double3x4.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_mat3x4.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_mat3x4.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_double3x4_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_float3x4.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_float3x4_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/mat4x2.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_double4x2.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_mat4x2.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_mat4x2.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_double4x2_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_float4x2.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_float4x2_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/mat4x3.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_double4x3.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_mat4x3.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_mat4x3.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_double4x3_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_float4x3.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_float4x3_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/mat4x4.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_double4x4.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_mat4x4.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_mat4x4.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/geometric.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/func_geometric.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/exponential.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/func_exponential.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_double4x4_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_float4x4.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_float4x4_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/func_matrix.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_double2x2_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_float2x2.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_float2x2_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/trigonometric.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/func_trigonometric.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/packing.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/func_packing.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_half.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_half.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/integer.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/func_integer.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/gtc/constants.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/scalar_constants.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/scalar_constants.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/gtc/constants.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/gtc/quaternion.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/gtc/matrix_transform.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_projection.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_projection.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_clip_space.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_clip_space.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_transform.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/matrix_transform.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/gtc/matrix_transform.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_relational.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_relational.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_float.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/quaternion_common.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/quaternion_geometric.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/quaternion_geometric.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/quaternion_common.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/quaternion_float.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_quat.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/quaternion_relational.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/quaternion_relational.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/type_quat.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/quaternion_float_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/quaternion_double.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/quaternion_double_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/quaternion_trigonometric.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/quaternion_trigonometric.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/quaternion_transform.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/quaternion_transform.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/gtc/quaternion.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/gtc/epsilon.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/setup.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/gtc/epsilon.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/gtx/dual_quaternion.inl \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/gtc/vec1.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_bool1.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_bool1_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_float1.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_float1_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_double1.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_double1_precision.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_int1.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_int1_sized.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_uint1.hpp \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/ext/vector_uint1_sized.hpp
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/glm.cpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/dual_quaternion.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/glm.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/_fixes.hpp \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cmath \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/requires_hosted.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/pstl_config.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/cpp_type_traits.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ext/type_traits.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/math.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/corecrt.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/_mingw.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/vadefs.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_abs.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/stdlib.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/limits.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/limits.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/stdlib.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/malloc.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/errno.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/specfun.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_algobase.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/functexcept.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/exception_defines.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ext/numeric_traits.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_pair.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/type_traits \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/move.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/utility.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_iterator_base_types.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_iterator_base_funcs.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/concept_check.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/debug/assertions.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_iterator.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/ptr_traits.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/debug/debug.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/predefined_ops.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bit \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/limits \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tr1/gamma.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tr1/special_function_util.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tr1/bessel_function.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tr1/beta_function.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tr1/ell_integral.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tr1/exp_integral.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tr1/hypergeometric.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tr1/legendre_function.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tr1/modified_bessel_func.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tr1/poly_hermite.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tr1/poly_laguerre.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tr1/riemann_zeta.tcc \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/setup.hpp \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cassert \
+ C:/w64devkit/x86_64-w64-mingw32/include/assert.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdlib \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstddef \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/stddef.h \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/simd/platform.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdint \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/stdint.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/climits \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cfloat \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/float.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/float.h \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/fwd.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/qualifier.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/setup.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/vec2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_bool2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_vec2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_vec2.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/compute_vector_relational.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_bool2_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_float2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_float2_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_double2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_double2_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_int2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_int2_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/scalar_int_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/setup.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_uint2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_uint2_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/scalar_uint_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/vec3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_bool3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_vec3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_vec3.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/compute_vector_decl.hpp \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/functional \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_function.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward/binders.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/tuple \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/uses_allocator.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/invoke.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/functional_hash.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/hash_bytes.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/refwrap.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/std_function.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/new \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/exception.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/typeinfo \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/unordered_map \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/initializer_list \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/unordered_map.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/hashtable.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/hashtable_policy.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ext/aligned_buffer.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ext/alloc_traits.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/alloc_traits.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_construct.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/memoryfwd.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/allocator.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/new_allocator.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/enable_special_members.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/node_handle.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/range_access.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/erase_if.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/memory_resource.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/uses_allocator_args.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/vector \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_uninitialized.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_vector.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_bvector.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/vector.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/array \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/compare \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_algo.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/algorithmfwd.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_heap.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/uniform_int_dist.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_tempbuf.h \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/_vectorize.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_bool3_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_float3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_float3_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_double3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_double3_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_int3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_int3_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_uint3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_uint3_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/vec4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_bool4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_vec4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_vec4.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_bool4_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_float4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_float4_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_double4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_double4_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_int4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_int4_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_uint4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_uint4_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/mat2x2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_double2x2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_mat2x2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_mat2x2.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/matrix.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/mat2x3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_double2x3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_mat2x3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_mat2x3.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_double2x3_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_float2x3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_float2x3_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/mat2x4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_double2x4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_mat2x4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_mat2x4.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_double2x4_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_float2x4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_float2x4_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/mat3x2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_double3x2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_mat3x2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_mat3x2.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_double3x2_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_float3x2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_float3x2_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/mat3x3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_double3x3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_mat3x3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_mat3x3.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/common.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/func_common.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/vector_relational.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/func_vector_relational.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/compute_common.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_vec1.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_vec1.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_double3x3_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_float3x3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_float3x3_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/mat3x4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_double3x4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_mat3x4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_mat3x4.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_double3x4_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_float3x4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_float3x4_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/mat4x2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_double4x2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_mat4x2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_mat4x2.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_double4x2_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_float4x2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_float4x2_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/mat4x3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_double4x3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_mat4x3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_mat4x3.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_double4x3_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_float4x3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_float4x3_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/mat4x4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_double4x4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_mat4x4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_mat4x4.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/geometric.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/func_geometric.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/exponential.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/func_exponential.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_double4x4_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_float4x4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_float4x4_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/func_matrix.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_double2x2_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_float2x2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_float2x2_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/trigonometric.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/func_trigonometric.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/packing.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/func_packing.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_half.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_half.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/integer.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/func_integer.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/constants.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/scalar_constants.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/scalar_constants.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/constants.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/quaternion.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/matrix_transform.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_projection.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_projection.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_clip_space.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_clip_space.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_transform.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_transform.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/matrix_transform.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_relational.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_relational.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_float.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/quaternion_common.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/quaternion_geometric.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/quaternion_geometric.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/quaternion_common.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/quaternion_float.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_quat.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/quaternion_relational.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/quaternion_relational.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/type_quat.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/quaternion_float_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/quaternion_double.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/quaternion_double_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/quaternion_trigonometric.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/quaternion_trigonometric.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/quaternion_transform.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/quaternion_transform.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/quaternion.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/epsilon.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/setup.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/epsilon.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/dual_quaternion.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/vec1.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_bool1.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_bool1_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_float1.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_float1_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_double1.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_double1_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_int1.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_int1_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_uint1.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_uint1_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_common.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/_fixes.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_common.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/_matrix_vectorize.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_int2x2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_int2x2_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_int2x3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_int2x3_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_int2x4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_int2x4_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_int3x2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_int3x2_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_int3x3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_int3x3_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_int3x4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_int3x4_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_int4x2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_int4x2_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_int4x3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_int4x3_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_int4x4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_int4x4_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_uint2x2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_uint2x2_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_uint2x3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_uint2x3_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_uint2x4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_uint2x4_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_uint3x2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_uint3x2_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_uint3x3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_uint3x3_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_uint3x4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_uint3x4_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_uint4x2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_uint4x2_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_uint4x3.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_uint4x3_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_uint4x4.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_uint4x4_sized.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_relational.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/matrix_relational.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/quaternion_exponential.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/quaternion_exponential.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/scalar_common.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/scalar_common.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/scalar_integer.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/scalar_integer.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/scalar_packing.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/scalar_packing.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/scalar_reciprocal.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/scalar_reciprocal.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/scalar_relational.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/scalar_relational.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/scalar_ulp.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/scalar_ulp.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_common.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_common.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_integer.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_integer.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_packing.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_packing.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_reciprocal.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_reciprocal.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_ulp.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/ext/vector_ulp.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/bitfield.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/type_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/type_precision.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/bitfield.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/simd/integer.h \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/color_space.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/color_space.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/integer.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/integer.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/matrix_access.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/matrix_access.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/matrix_integer.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/matrix_inverse.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/matrix_inverse.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/noise.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/_noise.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/noise.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/packing.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/packing.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/type_ptr.hpp \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstring \
+ C:/w64devkit/x86_64-w64-mingw32/include/string.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/type_ptr.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/random.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/random.inl \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ctime \
+ C:/w64devkit/x86_64-w64-mingw32/include/time.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/sys/timeb.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/_timeval.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/pthread_time.h \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/reciprocal.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/round.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/round.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/ulp.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtc/ulp.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/associated_min_max.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/associated_min_max.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/bit.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/bit.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/closest_point.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/closest_point.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/color_encoding.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/detail/setup.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/color_encoding.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/color_space.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/color_space.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/color_space_YCoCg.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/color_space_YCoCg.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/common.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/common.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/compatibility.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/compatibility.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/component_wise.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/component_wise.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/easing.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/easing.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/euler_angles.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/euler_angles.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/extend.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/extend.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/extended_min_max.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/extended_min_max.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/fast_exponential.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/fast_exponential.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/fast_square_root.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/fast_square_root.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/fast_trigonometry.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/fast_trigonometry.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/functions.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/functions.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/gradient_paint.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/optimum_pow.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/optimum_pow.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/gradient_paint.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/handed_coordinate_space.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/handed_coordinate_space.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/hash.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/hash.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/integer.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/integer.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/intersect.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/vector_query.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/vector_query.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/intersect.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/io.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/quaternion.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/norm.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/norm.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/quaternion.inl \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/iosfwd \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stringfwd.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/postypes.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cwchar \
+ C:/w64devkit/x86_64-w64-mingw32/include/wchar.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/_mingw_stat64.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/swprintf.inl \
+ C:/w64devkit/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/locale \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/localefwd.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/clocale \
+ C:/w64devkit/x86_64-w64-mingw32/include/locale.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/stdio.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cctype \
+ C:/w64devkit/x86_64-w64-mingw32/include/ctype.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/locale_classes.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/string \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/char_traits.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/ostream_insert.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/cxxabi_forced.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/basic_string.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/string_view \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/string_view.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ext/string_conversions.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdio \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cerrno \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/charconv.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/basic_string.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ext/atomicity.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/pthread.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/sys/types.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/process.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/corecrt_startup.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/signal.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/pthread_signal.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/pthread_compat.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/pthread_unistd.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/locale_classes.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/locale_facets.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cwctype \
+ C:/w64devkit/x86_64-w64-mingw32/include/wctype.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/ios_base.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/system_error \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/stdexcept \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/exception \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/exception_ptr.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/cxxabi_init_exception.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/nested_exception.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/streambuf \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/streambuf.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/streambuf_iterator.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/locale_facets.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/locale_facets_nonio.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/codecvt.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/locale_facets_nonio.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/locale_conv.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/utility \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/stl_relops.h \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/io.inl \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/iomanip \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/quoted_string.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/sstream \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/istream \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ios \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/basic_ios.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/basic_ios.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/ostream \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/ostream.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/istream.tcc \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/sstream.tcc \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/type_trait.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/type_trait.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/log_base.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/log_base.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/matrix_cross_product.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/matrix_cross_product.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/matrix_decompose.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/matrix_decompose.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/transform.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/transform.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/matrix_factorisation.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/matrix_factorisation.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/matrix_interpolation.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/matrix_interpolation.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/matrix_major_storage.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/matrix_major_storage.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/matrix_operation.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/matrix_operation.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/matrix_query.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/matrix_query.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/mixed_product.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/mixed_product.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/normal.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/normal.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/normalize_dot.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/normalize_dot.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/number_precision.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/orthonormalize.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/orthonormalize.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/pca.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/pca.inl \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/algorithm \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/glue_algorithm_defs.h \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/pstl/execution_defs.h \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/perpendicular.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/projection.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/projection.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/perpendicular.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/polar_coordinates.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/polar_coordinates.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/raw_data.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/raw_data.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/rotate_normalized_axis.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/rotate_normalized_axis.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/rotate_vector.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/rotate_vector.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/spline.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/spline.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/std_based_type.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/std_based_type.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/string_cast.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/string_cast.inl \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/cstdarg \
+ C:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdarg.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/stdarg.h \
+ C:/w64devkit/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/transform2.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/transform2.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/vec_swizzle.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/vector_angle.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/vector_angle.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/wrap.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/wrap.inl \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/scalar_multiplication.hpp \
+ C:/Users/USER/Ethel/NYCU/ICG/2025-fall-ICG-final-project/windows_version/extern/glm/glm/gtx/range.hpp
