@@ -133,12 +133,37 @@ int main() {
         // 2. 計算動態相機目標 (平滑過渡)
         glm::vec3 targetPos(0.0f, 0.0f, 0.0f);
         float targetDist = 10.0f;
+        float targetYaw = 0.0f;
+        float targetPitch = 135.0f;
 
         if (activeFinger > 0) {
-            // 根據手指位置微調看點 (此處座標請依模型實際位置微調)
-            float fingerX = (activeFinger - 3) * 0.7f; 
-            targetPos = glm::vec3(fingerX, 0.5f, 0.0f);
-            targetDist = 4.0f; 
+            // 為每個手指設定專屬的聚焦位置(保持俯視角度)
+            switch(activeFinger) {
+                case 1: // 大拇指 (Thumb) - 最左邊
+                    targetPos = glm::vec3(-1.0f, -1.5f, 0.0f);
+                    targetDist = 1.5f;
+                    break;
+                case 2: // 食指 (Index)
+                    targetPos = glm::vec3(-3.0f, 3.0f, 0.0f);
+                    targetDist = 0.05f;
+                    break;
+                case 3: // 中指 (Middle) - 中間
+                    targetPos = glm::vec3(-4.5f, 3.0f, 0.0f);
+                    targetDist = 0.05f;
+                    break;
+                case 4: // 無名指 (Ring)
+                    targetPos = glm::vec3(-6.0f, 3.0f, 0.0f);
+                    targetDist = 0.05f;
+                    break;
+                case 5: // 小指 (Pinky) - 最右邊
+                    targetPos = glm::vec3(-7.2f, 1.2f, 0.0f);
+                    targetDist = 0.08f;
+                    break;
+            }
+        }else {
+            // 全手視角
+            targetYaw = 0.0f;
+            targetPitch = 135.0f;
         }
 
         // 平滑差值 (Lerp)
@@ -146,21 +171,29 @@ int main() {
         currentCameraTarget = glm::mix(currentCameraTarget, targetPos, 0.05f);
         cameraDistance = glm::mix(cameraDistance, targetDist, 0.05f);
 
+        // 新增:讓相機角度也能平滑過渡(只在非手動旋轉時)
+        if (!isRotating) {
+            cameraYaw = glm::mix(cameraYaw, targetYaw, 0.05f);
+            cameraPitch = glm::mix(cameraPitch, targetPitch, 0.05f);
+        }
+
+        
+
         // 3. 計算相機位置與矩陣
         float camX = cameraDistance * cos(glm::radians(cameraPitch)) * sin(glm::radians(cameraYaw));
         float camY = cameraDistance * sin(glm::radians(cameraPitch));
         float camZ = cameraDistance * cos(glm::radians(cameraPitch)) * cos(glm::radians(cameraYaw));
-        
-        glm::vec3 cameraPos = glm::vec3(camX, camY, camZ);
+
+        // ★ 關鍵修改:讓相機位置以目標點為中心
+        glm::vec3 cameraPos = currentCameraTarget + glm::vec3(camX, camY, camZ);
         glm::vec3 cameraUp = glm::vec3(0.0f, 1.0f, 0.0f);
 
         glm::mat4 projection = glm::perspective(glm::radians(45.0f), (float)SCR_WIDTH / SCR_HEIGHT, 0.1f, 1000.0f);
         glm::mat4 view = glm::lookAt(cameraPos, currentCameraTarget, cameraUp);
-        
         glm::mat4 model = glm::mat4(1.0f);
         model = glm::translate(model, glm::vec3(0.0f, -1.5f, 0.0f));
         model = glm::rotate(model, glm::radians(-45.0f), glm::vec3(1, 0, 0));
-        model = glm::scale(model, glm::vec3(0.6f, 0.6f, 0.6f));
+        model = glm::scale(model, glm::vec3(0.5f, 0.5f, 0.5f));
 
         // 4. 傳遞 Uniform
         glUniformMatrix4fv(glGetUniformLocation(shaderProgram, "model"), 1, GL_FALSE, glm::value_ptr(model));
@@ -169,7 +202,7 @@ int main() {
 
         glUniform1i(glGetUniformLocation(shaderProgram, "activeFinger"), activeFinger);
         glUniform1f(glGetUniformLocation(shaderProgram, "patternProgress"), patternProgress);
-        glUniform1i(glGetUniformLocation(shaderProgram, "showPattern"), isGrowing ? 1 : 0);
+        glUniform1i(glGetUniformLocation(shaderProgram, "showPattern"), 1);
         glUniform1iv(glGetUniformLocation(shaderProgram, "fingerPainted"), 6, fingerPainted);
 
         // 5. 繪製
