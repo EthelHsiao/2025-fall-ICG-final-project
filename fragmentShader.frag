@@ -21,19 +21,23 @@ float sdHeart(vec2 p) {
                     dot(p - 0.5 * max(p.x + p.y, 0.0), p - 0.5 * max(p.x + p.y, 0.0)))) * sign(p.x - p.y);
 }
 
-// 指甲底色
+// 指甲底色設定
 vec3 getNailColor(int idx) {
     if (idx == 1) return vec3(0.85, 0.65, 0.95);      // 拇指：粉紫
     else if (idx == 2) return vec3(0.95, 0.95, 0.95); // 食指：白
     else if (idx == 3) return vec3(0.55, 0.4, 0.8);   // 中指：深紫
-    else if (idx == 4) return vec3(0.98, 0.75, 0.85); // 無名指：淺粉
-    else if (idx == 5) return vec3(0.92, 0.92, 0.98); // 小指：冷調銀白
+    else if (idx == 4) return vec3(1.0, 0.82, 0.88);  // 無名指：粉白底
+    
+    // [★ 修正重點] 這裡一定要改！原本是 vec3(0.92, 0.92, 0.98) 會變白
+    // 改成 vec3(1.0, 0.8, 0.9) 才會是粉紅色
+    else if (idx == 5) return vec3(0.55, 0.4, 0.8);    
+    
     else return vec3(0.85, 0.85, 0.92);
 }
 
 int getFingerIndex(vec2 uv) {
     if (uv.y < 0.1) {
-        if (uv.x < 0.5) {
+        if (uv.x < 0.5) { 
             if (uv.x < 0.1) return 5;
             else if (uv.x < 0.2) return 4;
             else if (uv.x < 0.3) return 3;
@@ -58,9 +62,20 @@ void main() {
         vec3 lightDir = normalize(vec3(5.0, 10.0, 15.0) - gRawPos);
         
         vec3 baseColor;
-        if (isPattern > 3.5) {
-            // 4.0 = 小指蝴蝶結：根據texture的IMG_4381.jpeg調色
-            baseColor = vec3(0.9, 0.7, 0.9); // 淡紫粉色，配合texture
+        // 4.0 = 小指 3D 蝴蝶結 (Pink Bow)
+        if (isPattern > 4.5) {
+            // 5.0 = 小指銀白色細閃粉 - 純銀色,無彩虹
+            
+            // 固定銀白色,不受任何計算影響
+            vec3 pureWhite = vec3(0.95, 0.95, 0.95);
+            
+            // 簡單的亮度變化,但保持白色
+            float brightness = 0.7 + max(dot(normal, lightDir), 0.0) * 0.3;
+            
+            vec3 finalColor = pureWhite * brightness;
+            FragColor = vec4(finalColor, 0.92);
+        } else if (isPattern > 3.5) {
+            baseColor = vec3(1.0, 0.6, 0.8); // 亮粉色蝴蝶結
         } else if (isPattern > 2.5) {
             baseColor = vec3(0.95, 0.96, 0.98); // 中指銀星
         } else if (isPattern > 1.5) {
@@ -78,9 +93,8 @@ void main() {
         float fresnel = pow(1.0 - max(dot(normal, viewDir), 0.0), 3.0);
         
         vec3 rimLight;
-        // 蝴蝶結特殊光效
         if (isPattern > 3.5) {
-            rimLight = vec3(0.95, 0.8, 0.95) * fresnel * 1.2; // 淡紫粉邊緣光，配合texture色調
+            rimLight = vec3(0.95, 0.8, 0.95) * fresnel * 1.2;
         } else {
             rimLight = vec3(1.0) * fresnel * 0.9;
         }
@@ -91,7 +105,7 @@ void main() {
         return;
     }
 
-    // 2. 指甲彩繪
+    // 2. 指甲彩繪邏輯
     vec4 texColor = texture(handTexture, gTexCoord);
     vec3 finalColor = texColor.rgb;
     int fIdx = getFingerIndex(gTexCoord);
@@ -101,66 +115,52 @@ void main() {
         
         if (shouldPaint) {
             vec3 nailColor = getNailColor(fIdx);
+            
+            // 狀態持久化
             float t = (fingerPainted[fIdx] == 1) ? 1.0 : patternProgress;
             float blend = smoothstep(0.0, 1.0, t);
+            
+            // 基礎上色 (所有手指都先上底色)
             finalColor = mix(texColor.rgb, nailColor, blend * 0.85);
             
             // --- 無名指 (Ring Finger) ---
             if (fIdx == 4) {
-                vec3 viewDir = normalize(vec3(0.0, 5.0, 10.0) - gRawPos);
-                vec3 normal = normalize(gNormal);
+                vec3 basePink = vec3(1.0, 0.82, 0.88); 
                 
-                // [貓眼修正] 使用 pow(0.5) 讓光帶更寬更柔，消除銳利線條
-                float offset = viewDir.x * 0.6 + viewDir.z * 0.1;
-                float catEyePos = (gTexCoord.x - 0.5) + offset;
-                float band = 1.0 - smoothstep(0.0, 0.6, abs(catEyePos)); // 範圍加大到 0.6
-                band = pow(band, 0.6); // 指數調低，邊緣更霧
+                float distFromCenter = abs(gTexCoord.y - 0.05);
                 
-                vec3 basePink = vec3(0.98, 0.75, 0.85);
-                vec3 mistyWhite = vec3(1.0, 0.92, 0.95);
-                vec3 catEyeColor = mix(basePink, mistyWhite, band * 0.7);
-                finalColor = mix(finalColor, catEyeColor, band * 0.8 * blend);
+                float highlight = pow(clamp(1.0 - distFromCenter * 10.0, 0.0, 1.0), 10.0) * 0.18;
                 
-                // [愛心修正] 調整座標計算，確保愛心不會跑出界
-                vec2 uv = gTexCoord;
-                // 判斷左手(X<0.5)或右手，給予更準確的中心位移
-                float centerX = (uv.x < 0.5) ? 0.15 : 0.85; 
-                
-                // 這裡我們稍微微調 Y 軸，原本 0.05 改為 0.06 試試
-                uv -= vec2(centerX, 0.06); 
-                uv.x *= 1.5; 
-                uv *= 20.0; // [關鍵] 數字變小(25->20) = 愛心變大！
-                uv.y -= 0.5; 
-                
-                float d = sdHeart(uv);
-                float heartMask = 1.0 - smoothstep(0.0, 0.1, d); 
-                if (heartMask > 0.0) {
-                    finalColor = mix(finalColor, vec3(1.0, 1.0, 1.0), heartMask * blend);
-                }
-            } 
-            // --- 小拇指 (Pinky) ---
-            else if (fIdx == 5) {
-                // [亮片修正] 顆粒感修正 (Cell-based Glitter)
-                // 將 UV 放大 30 倍，形成網格，讓亮片變大顆
-                vec2 gridUV = gTexCoord * 30.0; 
-                vec2 gridID = floor(gridUV);
-                
-                // 每個格子算一個隨機數
-                float noise = fract(sin(dot(gridID, vec2(12.9898, 78.233))) * 43758.5453);
-                
-                // 只有隨機數 > 0.7 的格子才發光 (30% 的覆蓋率，避免全白)
-                if (noise > 0.7) {
-                    // 雷射變色：根據格子位置變色，而不是像素位置
-                    vec3 holoColor = 0.5 + 0.5 * cos(gTexCoord.y * 10.0 + vec3(0, 2, 4));
-                    // 讓光更亮
-                    finalColor += holoColor * 1.8 * blend; 
-                }
-                
-                // 額外加上一層細微的珠光，避免沒亮片的地方太單調
-                float sheen = pow(1.0 - abs(gTexCoord.x - (gTexCoord.x < 0.5 ? 0.05 : 0.95)), 4.0); 
-                finalColor += vec3(0.1, 0.1, 0.2) * sheen * blend;
+                float finalSpec = highlight * blend;
 
-            } else {
+                // 3. 混合顏色
+                finalColor = mix(texColor.rgb, basePink, blend * 0.85);
+                
+                // 疊加高光
+                finalColor += vec3(1.0) * finalSpec;
+            }
+            // 小指格紋效果
+            else if (fIdx == 5) {
+                // 格紋參數
+                float gridSize = 30.0; // 格子大小
+                float lineWidth = 0.08; // 線條粗細
+                
+                // 計算格紋
+                vec2 grid = fract(gTexCoord * gridSize);
+                float line = step(1.0 - lineWidth, grid.x) + step(1.0 - lineWidth, grid.y);
+                line = min(line, 1.0);
+                
+                // 格紋顏色：銀白色線條
+                vec3 lineColor = vec3(0.85, 0.85, 0.9);
+                
+                // 混合底色和格紋
+                finalColor = mix(finalColor, lineColor, line * blend * 0.6);
+                
+                // 加上高光
+                float spec = pow(1.0 - abs(gTexCoord.y - 0.05), 8.0) * 0.2;
+                finalColor += spec * blend;
+            }else {
+                // 其他手指的高光
                 float spec = pow(1.0 - abs(gTexCoord.y - 0.05), 8.0) * 0.3;
                 finalColor += spec * blend;
             }
