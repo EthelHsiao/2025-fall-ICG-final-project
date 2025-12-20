@@ -1,4 +1,4 @@
-# HW2 - Hand Decoration (Nail Art Animation)
+# Group 8 Final Project - Slayyyyyyyyyyyy
 
 An interactive 3D OpenGL application that allows users to decorate fingernails with animated patterns. The project features a realistic female hand model with dynamic nail art generation, smooth camera controls, and a wood-grain textured background.
 
