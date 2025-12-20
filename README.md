@@ -1,219 +1,84 @@
-# 💅 Hand Decoration - OpenGL Nail Art System
+# HW2 - Hand Decoration (Nail Art Animation)
 
-An interactive 3D nail decoration application built with OpenGL and GLSL Geometry Shaders. Features real-time growth animations, camera controls, and various decorative effects.
+An interactive 3D OpenGL application that allows users to decorate fingernails with animated patterns. The project features a realistic female hand model with dynamic nail art generation, smooth camera controls, and a wood-grain textured background.
 
-![Wood Background](https://img.shields.io/badge/Background-Wood_Texture-8B4513)
-![OpenGL](https://img.shields.io/badge/OpenGL-3.3-blue)
-![C++](https://img.shields.io/badge/C++-11-00599C)
-
----
-
-## ✨ Features
-
-### 🎨 Five Unique Finger Designs
-- **Thumb** - Pink-purple base + Purple crystal diamonds
-- **Index Finger** - White base + Exploding white pyramids
-- **Middle Finger** - Deep purple base + Rotating silver stars
-- **Ring Finger** - Pink-white base + Gradient highlight effect
-- **Pinky** - Deep purple base + Silver-white grid pattern
-
-### 🎬 Animation Effects
-- ⏱️ **Growth Animation** - Decorations gradually grow from nothing
-- 🔄 **Rotation Animation** - Stars continuously rotate, slow down when finished
-- 💥 **Explosion Animation** - Pyramids pop out and rotate
-- 🎉 **Celebration Mode** - Automatic rotation showcase after completing all five fingers
-
-### 🎥 Interactive Camera System
-- 🖱️ Mouse drag to rotate view
-- 🔍 Scroll wheel to zoom
-- ⌨️ Arrow keys to move viewpoint
-- 🎯 Auto-focus on selected finger
-- 🔄 Smooth interpolation transitions
-
-### 🌳 Visual Effects
-- Realistic procedural wood grain background
-- Blinn-Phong lighting model
-- Fresnel rim lighting
-- Anti-aliasing processing
-
----
-
-## 🎮 Controls
-
-### Keyboard
-
-| Key | Function |
-|-----|----------|
-| `A` | Select Thumb |
-| `B` | Select Index Finger |
-| `C` | Select Middle Finger |
-| `D` | Select Ring Finger |
-| `E` | Select Pinky |
-| `S` | Start decoration animation |
-| `Space` | Reset view to center |
-| `↑↓←→` | Move camera target |
-| `ESC` | Exit program |
-
-### Mouse
-
-| Action | Function |
-|--------|----------|
-| Left Click + Drag | Rotate camera |
-| Scroll Wheel | Zoom in/out |
-
----
-
-## 🏗️ Project Structure
+## Project Structure
 
 ```
-project/
+.
 ├── src/
-│   ├── main.cpp                    # Main program
+│   ├── main.cpp                    # Main application entry point
+│   ├── CMakeLists.txt
+│   ├── stb_image.cpp
+│   ├── header/
+│   │   ├── Object.h                # OBJ model loader
+│   │   └── stb_image.h             # Image loading library
 │   ├── shaders/
-│   │   ├── vertexShader.vert      # Vertex shader
-│   │   ├── geometryShader.geom    # Geometry shader (generates 3D decorations)
-│   │   ├── fragmentShader.frag    # Fragment shader (painting effects)
-│   │   ├── backgroundShader.vert  # Background vertex shader
-│   │   └── backgroundShader.frag  # Background fragment shader (wood grain)
-│   ├── asset/
-│   │   ├── obj/
-│   │   │   └── female_hand.obj    # Hand 3D model
-│   │   └── texture/
-│   │       └── female_hand.png    # Hand texture
-│   └── header/
-│       ├── Object.h                # OBJ loader
-│       └── stb_image.h            # Image loading library
-└── README.md
+│   │   ├── vertexShader.vert       # Vertex shader
+│   │   ├── fragmentShader.frag     # Fragment shader
+│   │   ├── geometryShader.geom     # Geometry shader (pattern generation)
+│   │   ├── backgroundShader.vert   # Background vertex shader
+│   │   └── backgroundShader.frag   # Background fragment shader
+│   └── asset/
+│       ├── obj/
+│       │   └── female_hand.obj     # 3D hand model
+│       └── texture/
+│           └── female_hand.png     # Hand texture
+├── build/                          # Build output directory
+├── extern/
+├── CMakeLists.txt                  # CMake configuration
+└── README.md                       # This file
 ```
 
----
+## How to Build
 
-## 🔧 Technical Details
+### Using CMake (Recommended)
 
-### Technologies Used
-- **OpenGL 3.3 Core Profile**
-- **GLSL 330**
-- **Geometry Shader** - Dynamically generates 3D decorative geometry
-- **GLM** - Mathematics library
-- **GLFW** - Window management
-- **GLAD** - OpenGL function loader
-- **stb_image** - Image loading
+1. **Create a build directory and navigate to it:**
+   ```bash
+   mkdir build
+   cd build
+   ```
 
-### Shader Pipeline
+2. **Run CMake to configure the project:**
+   ```bash
+   cmake ..
+   ```
 
-#### Vertex Shader
-- Receives model vertices, normals, UV coordinates
-- Passes raw coordinates to Geometry Shader
+3. **Build the project:**
+   ```bash
+   make
+   ```
 
-#### Geometry Shader
-- **Input**: Triangles
-- **Output**: Up to 256 vertices (triangle strip)
-- **Functions**:
-  - Outputs original hand model
-  - Generates 3D decorations based on finger index and progress
-  - Supports various geometric shapes (diamonds, pyramids, stars, bows)
-  - Implements explosion and rotation animations
-
-#### Fragment Shader
-- **3D Decoration Lighting**: Blinn-Phong + Fresnel rim lighting
-- **Nail Painting**:
-  - Base color blending (smoothstep smooth transition)
-  - Ring finger gradient highlight
-  - Pinky grid pattern effect
-  
-#### Background Shader
-- **Procedural Wood Grain**:
-  - Multi-layer Perlin noise
-  - Tree ring effect (sine wave)
-  - Detail texture
-  - Anti-aliasing (`dFdx`, `dFdy`, `fwidth`)
-
-### Camera System
-- **Spherical coordinate system**
-- **Smooth interpolation** (`glm::mix`)
-- **Auto-focus** - Automatically moves to optimal viewing position when switching fingers
-
-### Animation System
-- **Progress control** - `patternProgress` (0.0 → 1.0)
-- **State persistence** - `fingerPainted[]` array records completion status
-- **Time-driven** - Uses `glfwGetTime()` to drive rotation animations
-
----
-
-## 📦 Build & Run
-
-### Dependencies
-```bash
-# Ubuntu/Debian
-sudo apt-get install libglfw3-dev libglm-dev
-
-# macOS (using Homebrew)
-brew install glfw glm
-
-# Windows
-# Manually download and configure GLFW and GLM
-```
-
-### Compilation
-```bash
-# Using CMake (Recommended)
-mkdir build
-cd build
-cmake ..
-make
-
-# Or using g++ (Example)
-g++ -std=c++11 src/main.cpp -o hand_decoration \
-    -lglfw -lGL -ldl -lpthread
-```
-
-### Execution
-```bash
-./hand_decoration
-```
-
----
-
-## 🎨 Design Philosophy
-
-### Color Theme
-Adopts **purple** as the main theme, accented with silver-white:
-- Pink-purple and deep purple base colors create elegance
-- White and silver decorations add sophistication
-- Pink-white and pink as transition colors
-
-### Decoration Distribution
-- **Static Decorations** (Thumb diamonds) - Show stability
-- **Dynamic Decorations** (Index pyramids, Middle stars) - Show vitality
-- **Flat Effects** (Ring highlight, Pinky grid) - Show delicacy
-
-### Visual Hierarchy
-1. **3D Decorations** - Most prominent, attracts focus
-2. **Base Nail Polish** - Middle layer, provides background
-3. **Wood Grain Background** - Bottom layer, enhances subject
-
----
-
-## 🐛 Known Issues
-
-- Wood grain may show slight moiré patterns at certain resolutions
-- Occasional gimbal lock when rotating camera
-
----
-
-## 📝 License
-
-This project is for academic purposes only.
-
----
+4. **Run the application:**
+   ```bash
+   cd src
+   ./ICG_2025_HW2
+   ```
 
 
-## 🙏 Acknowledgments
 
-- **3D Model**: female_hand.obj
-- **Libraries**: GLFW, GLM, GLAD, stb_image
-- **Inspiration**: Modern nail art designs
+## Controls
 
----
+| Key/Action | Description |
+|------------|-------------|
+| **A** | Select Thumb |
+| **B** | Select Index finger |
+| **C** | Select Middle finger |
+| **D** | Select Ring finger |
+| **E** | Select Pinky finger |
+| **S** | Start decoration animation (when finger selected) |
+| **Left Mouse + Drag** | Rotate camera |
+| **Mouse Wheel** | Zoom in/out |
+| **Arrow Keys** | Move camera position |
+| **Space** | Reset view to center |
+| **ESC** | Exit application |
 
-**Enjoy decorating! 💅✨**
+## Usage Instructions
+
+1. **Launch the application** - A 3D hand model will appear on a wood-grain background
+2. **Select a finger** - Press A, B, C, D, or E to select a finger
+3. **Start decoration** - Press S to begin the nail art animation
+4. **Rotate view** - Click and drag with the left mouse button to rotate
+5. **Zoom** - Use the mouse wheel to zoom in/out
+6. **Complete all nails** - Once all five fingers are decorated, the hand will start a celebration spin animation
