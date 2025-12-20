@@ -23,6 +23,7 @@ unsigned int createShader(const string &filename, const string &type);
 unsigned int createProgram(unsigned int vertexShader, unsigned int fragmentShader, unsigned int geometryShader);
 unsigned int modelVAO(Object &model);
 unsigned int loadTexture(const string &filename);
+string resolveBase(const vector<string> &bases, const string &probeFile);
 
 // 全域變數
 int SCR_WIDTH = 800;
@@ -46,16 +47,46 @@ bool isRotating = false;
 double lastMouseX = 0.0;
 double lastMouseY = 0.0;
 
+// Pick the first base path that contains the probe file. This allows running
+// the binary from either the build directory or the project root without
+// breaking relative paths to shaders/assets.
+string resolveBase(const vector<string> &bases, const string &probeFile) {
+    for (const auto &base : bases) {
+        ifstream f(base + probeFile);
+        if (f.good()) {
+            return base;
+        }
+    }
+    cout << "[WARN] Falling back to first base path: " << bases.front() << endl;
+    return bases.front();
+}
+
 void init() {
-#if defined(__linux__) || defined(__APPLE__)
-    string dirShader = "../../src/shaders/";
-    string dirAsset = "../../src/asset/obj/";
-    string dirTexture = "../../src/asset/texture/";
-#else
-    string dirShader = "..\\..\\src\\shaders\\";
-    string dirAsset = "..\\..\\src\\asset\\obj\\";
-    string dirTexture = "..\\..\\src\\asset\\texture\\";
-#endif
+    vector<string> shaderBases = {
+        "../../src/shaders/", // running from build/src
+        "../src/shaders/",    // running from build
+        "src/shaders/"        // running from project root
+    };
+
+    vector<string> assetBases = {
+        "../../src/asset/obj/",
+        "../src/asset/obj/",
+        "src/asset/obj/"
+    };
+
+    vector<string> textureBases = {
+        "../../src/asset/texture/",
+        "../src/asset/texture/",
+        "src/asset/texture/"
+    };
+
+    string dirShader = resolveBase(shaderBases, "vertexShader.vert");
+    string dirAsset = resolveBase(assetBases, "female_hand.obj");
+    string dirTexture = resolveBase(textureBases, "female_hand.png");
+
+    cout << "Using shader path: " << dirShader << endl;
+    cout << "Using asset path: " << dirAsset << endl;
+    cout << "Using texture path: " << dirTexture << endl;
 
     cout << "Loading hand object..." << endl;
     handObject = new Object(dirAsset + "female_hand.obj"); 
@@ -102,8 +133,9 @@ int main() {
 
     init();
     glEnable(GL_DEPTH_TEST);
-    glEnable(GL_CULL_FACE);
-    glCullFace(GL_BACK);
+    glDisable(GL_CULL_FACE);
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
     cout << "\n=== Controls ===" << endl;
     cout << "A/B/C/D/E: Select finger (thumb/index/middle/ring/pinky)" << endl;
@@ -202,6 +234,7 @@ int main() {
 
         glUniform1i(glGetUniformLocation(shaderProgram, "activeFinger"), activeFinger);
         glUniform1f(glGetUniformLocation(shaderProgram, "patternProgress"), patternProgress);
+        glUniform1f(glGetUniformLocation(shaderProgram, "time"), currentTime);
         glUniform1i(glGetUniformLocation(shaderProgram, "showPattern"), 1);
         glUniform1iv(glGetUniformLocation(shaderProgram, "fingerPainted"), 6, fingerPainted);
 
@@ -226,10 +259,14 @@ void keyCallback(GLFWwindow *window, int key, int scancode, int action, int mods
         switch (key) {
             case GLFW_KEY_A: 
                 activeFinger = 1; 
+                isGrowing = false; 
+                patternProgress = 0.0f;
                 cout << "Selected: Thumb" << endl;
                 break;
             case GLFW_KEY_B: 
                 activeFinger = 2; 
+                isGrowing = false; 
+                patternProgress = 0.0f;
                 cout << "Selected: Index finger" << endl;
                 break;
             case GLFW_KEY_C: 
@@ -238,17 +275,22 @@ void keyCallback(GLFWwindow *window, int key, int scancode, int action, int mods
                 break;
             case GLFW_KEY_D: 
                 activeFinger = 4; 
+                isGrowing = false; 
+                patternProgress = 0.0f;
                 cout << "Selected: Ring finger" << endl;
                 break;
             case GLFW_KEY_E: 
                 activeFinger = 5; 
+                isGrowing = false; 
+                patternProgress = 0.0f;
                 cout << "Selected: Pinky" << endl;
                 break;
             case GLFW_KEY_S: 
-                if (activeFinger != 0 && !isGrowing) {
+                // ★ 只有按下 S，且該手指還沒被畫過，才允許開始
+                if (activeFinger != 0 && fingerPainted[activeFinger] == 0) {
                     isGrowing = true;
-                    patternProgress = 0.0f;
-                    cout << "Growing decoration on finger " << activeFinger << "..." << endl;
+                    patternProgress = 0.01f; // 設定一個微小的起始值
+                    cout << "Start Animation!" << endl;
                 }
                 break;
             case GLFW_KEY_ESCAPE: 
