@@ -1,0 +1,2 @@
+D:/w64devkit/bin/ar.exe qc libglm.a CMakeFiles/glm.dir/detail/glm.cpp.obj
+D:/w64devkit/bin/ranlib.exe libglm.a
