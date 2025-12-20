@@ -37,6 +37,8 @@ glm::vec3 currentCameraTarget(0.0f, 0.0f, 0.0f);
 int activeFinger = 0;      // 0:全手, 1-5 對應 a-e
 bool isGrowing = false;
 float patternProgress = 0.0f;
+bool isPaintingPurple = false;  // P鍵觸發的紫色漸變
+float purplePaintProgress = 0.0f;
 
 // 相機控制變數
 float cameraDistance = 10.0f;
@@ -108,6 +110,7 @@ int main() {
     cout << "\n=== Controls ===" << endl;
     cout << "A/B/C/D/E: Select finger (thumb/index/middle/ring/pinky)" << endl;
     cout << "S: Start decoration (when finger selected)" << endl;
+    cout << "P: Paint all nails purple (gradual)" << endl;
     cout << "Left Mouse + Drag: Rotate camera" << endl;
     cout << "Mouse Wheel: Zoom in/out" << endl;
     cout << "ESC: Exit" << endl;
@@ -127,6 +130,16 @@ int main() {
                 fingerPainted[activeFinger] = 1; // 記錄此手指已完成
                 patternProgress = 0.0f;
                 // 完成後不強制切換 activeFinger，讓使用者看清楚
+            }
+        }
+
+        // 1.5 更新紫色指甲油漸變進度
+        if (isPaintingPurple) {
+            purplePaintProgress += 0.0015f; // 更慢的漸進式上色，讓效果更明顯
+            if (purplePaintProgress >= 1.0f) {
+                purplePaintProgress = 1.0f; // 保持完成狀態
+                isPaintingPurple = false;
+                cout << "Purple nail polish complete!" << endl;
             }
         }
 
@@ -171,6 +184,7 @@ int main() {
         glUniform1f(glGetUniformLocation(shaderProgram, "patternProgress"), patternProgress);
         glUniform1i(glGetUniformLocation(shaderProgram, "showPattern"), isGrowing ? 1 : 0);
         glUniform1iv(glGetUniformLocation(shaderProgram, "fingerPainted"), 6, fingerPainted);
+        glUniform1f(glGetUniformLocation(shaderProgram, "purplePaintProgress"), purplePaintProgress);
 
         // 5. 繪製
         glActiveTexture(GL_TEXTURE0);
@@ -211,15 +225,22 @@ void keyCallback(GLFWwindow *window, int key, int scancode, int action, int mods
                 activeFinger = 5; 
                 cout << "Selected: Pinky" << endl;
                 break;
-            case GLFW_KEY_S: 
+            case GLFW_KEY_S:
                 if (activeFinger != 0 && !isGrowing) {
                     isGrowing = true;
                     patternProgress = 0.0f;
                     cout << "Growing decoration on finger " << activeFinger << "..." << endl;
                 }
                 break;
-            case GLFW_KEY_ESCAPE: 
-                glfwSetWindowShouldClose(window, true); 
+            case GLFW_KEY_P:
+                if (!isPaintingPurple) {
+                    isPaintingPurple = true;
+                    purplePaintProgress = 0.0f;
+                    cout << "Starting purple nail polish painting..." << endl;
+                }
+                break;
+            case GLFW_KEY_ESCAPE:
+                glfwSetWindowShouldClose(window, true);
                 break;
             case GLFW_KEY_SPACE: // 按下空白鍵回到全手視角
                 activeFinger = 0;
