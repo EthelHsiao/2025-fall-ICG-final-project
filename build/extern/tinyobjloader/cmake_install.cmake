@@ -1,4 +1,4 @@
-# Install script for directory: D:/2025 fall/CG/ICG_2025_HW2/extern/tinyobjloader
+# Install script for directory: D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/tinyobjloader
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/2025 fall/CG/ICG_2025_HW2/build/extern/tinyobjloader/install_local_manifest.txt"
+  file(WRITE "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/tinyobjloader/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

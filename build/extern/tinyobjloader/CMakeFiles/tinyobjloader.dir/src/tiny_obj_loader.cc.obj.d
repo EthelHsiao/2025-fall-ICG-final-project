@@ -1,6 +1,6 @@
 extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.obj: \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/tinyobjloader/src/tiny_obj_loader.cc \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/tinyobjloader/include/tiny_obj_loader.h \
+ D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/tinyobjloader/src/tiny_obj_loader.cc \
+ D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/tinyobjloader/include/tiny_obj_loader.h \
  D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/map \
  D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/requires_hosted.h \
  D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -162,4 +162,4 @@ extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.obj: \
  D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/fstream.tcc \
  D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/sstream \
  D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/bits/sstream.tcc \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/tinyobjloader/include/tiny_obj_loader.h
+ D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/tinyobjloader/include/tiny_obj_loader.h

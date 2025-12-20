@@ -52,19 +52,19 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "D:/2025 fall/CG/ICG_2025_HW2/extern/glfw/include"
+					"path" : "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glfw/include"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "D:/2025 fall/CG/ICG_2025_HW2/extern/glm"
+					"path" : "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glm"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "D:/2025 fall/CG/ICG_2025_HW2/extern/glad/include"
+					"path" : "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glad/include"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "D:/2025 fall/CG/ICG_2025_HW2/extern/tinyobjloader/include"
+					"path" : "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/tinyobjloader/include"
 				}
 			],
 			"language" : "CXX",
@@ -95,11 +95,11 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "tinyobjloader::@22fa7a90b6df3fa2547f"
+			"id" : "glad::@6d81f930c6bec73dde7b"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "glad::@6d81f930c6bec73dde7b"
+			"id" : "tinyobjloader::@22fa7a90b6df3fa2547f"
 		}
 	],
 	"id" : "ICG_2025_HW2::@145eef247bfb46b6828c",

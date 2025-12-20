@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:/2025 fall/CG/ICG_2025_HW2"
+CMAKE_SOURCE_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:/2025 fall/CG/ICG_2025_HW2/build"
+CMAKE_BINARY_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/ICG_2025_HW2.dir/depend.make
@@ -74,33 +74,33 @@ src/CMakeFiles/ICG_2025_HW2.dir/codegen:
 
 src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.obj: src/CMakeFiles/ICG_2025_HW2.dir/flags.make
 src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.obj: src/CMakeFiles/ICG_2025_HW2.dir/includes_CXX.rsp
-src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.obj: D:/2025\ fall/CG/ICG_2025_HW2/src/main.cpp
+src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.obj: D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/src/main.cpp
 src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.obj: src/CMakeFiles/ICG_2025_HW2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.obj"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/src" && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.obj -MF CMakeFiles/ICG_2025_HW2.dir/main.cpp.obj.d -o CMakeFiles/ICG_2025_HW2.dir/main.cpp.obj -c "D:/2025 fall/CG/ICG_2025_HW2/src/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.obj"
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/src && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.obj -MF CMakeFiles/ICG_2025_HW2.dir/main.cpp.obj.d -o CMakeFiles/ICG_2025_HW2.dir/main.cpp.obj -c D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/src/main.cpp
 
 src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ICG_2025_HW2.dir/main.cpp.i"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/src" && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:/2025 fall/CG/ICG_2025_HW2/src/main.cpp" > CMakeFiles/ICG_2025_HW2.dir/main.cpp.i
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/src && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/src/main.cpp > CMakeFiles/ICG_2025_HW2.dir/main.cpp.i
 
 src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ICG_2025_HW2.dir/main.cpp.s"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/src" && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:/2025 fall/CG/ICG_2025_HW2/src/main.cpp" -o CMakeFiles/ICG_2025_HW2.dir/main.cpp.s
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/src && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/src/main.cpp -o CMakeFiles/ICG_2025_HW2.dir/main.cpp.s
 
 src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj: src/CMakeFiles/ICG_2025_HW2.dir/flags.make
 src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj: src/CMakeFiles/ICG_2025_HW2.dir/includes_CXX.rsp
-src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj: D:/2025\ fall/CG/ICG_2025_HW2/src/stb_image.cpp
+src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj: D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/src/stb_image.cpp
 src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj: src/CMakeFiles/ICG_2025_HW2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/src" && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj -MF CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj.d -o CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj -c "D:/2025 fall/CG/ICG_2025_HW2/src/stb_image.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj"
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/src && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj -MF CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj.d -o CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj -c D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/src/stb_image.cpp
 
 src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.i"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/src" && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:/2025 fall/CG/ICG_2025_HW2/src/stb_image.cpp" > CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.i
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/src && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/src/stb_image.cpp > CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.i
 
 src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.s"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/src" && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:/2025 fall/CG/ICG_2025_HW2/src/stb_image.cpp" -o CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.s
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/src && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/src/stb_image.cpp -o CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.s
 
 # Object files for target ICG_2025_HW2
 ICG_2025_HW2_OBJECTS = \
@@ -119,20 +119,20 @@ src/ICG_2025_HW2.exe: extern/glad/libglad.a
 src/ICG_2025_HW2.exe: extern/tinyobjloader/libtinyobjloader.a
 src/ICG_2025_HW2.exe: src/CMakeFiles/ICG_2025_HW2.dir/linkLibs.rsp
 src/ICG_2025_HW2.exe: src/CMakeFiles/ICG_2025_HW2.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ICG_2025_HW2.exe"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/src" && "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/ICG_2025_HW2.dir/objects.a
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/src" && D:/w64devkit/bin/ar.exe qc CMakeFiles/ICG_2025_HW2.dir/objects.a @CMakeFiles/ICG_2025_HW2.dir/objects1.rsp
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/src" && D:/w64devkit/bin/g++.exe -g -Wl,--whole-archive CMakeFiles/ICG_2025_HW2.dir/objects.a -Wl,--no-whole-archive -o ICG_2025_HW2.exe -Wl,--out-implib,libICG_2025_HW2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/ICG_2025_HW2.dir/linkLibs.rsp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ICG_2025_HW2.exe"
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/src && "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/ICG_2025_HW2.dir/objects.a
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/src && D:/w64devkit/bin/ar.exe qc CMakeFiles/ICG_2025_HW2.dir/objects.a @CMakeFiles/ICG_2025_HW2.dir/objects1.rsp
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/src && D:/w64devkit/bin/g++.exe -g -Wl,--whole-archive CMakeFiles/ICG_2025_HW2.dir/objects.a -Wl,--no-whole-archive -o ICG_2025_HW2.exe -Wl,--out-implib,libICG_2025_HW2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/ICG_2025_HW2.dir/linkLibs.rsp
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/ICG_2025_HW2.dir/build: src/ICG_2025_HW2.exe
 .PHONY : src/CMakeFiles/ICG_2025_HW2.dir/build
 
 src/CMakeFiles/ICG_2025_HW2.dir/clean:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/src" && $(CMAKE_COMMAND) -P CMakeFiles/ICG_2025_HW2.dir/cmake_clean.cmake
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/src && $(CMAKE_COMMAND) -P CMakeFiles/ICG_2025_HW2.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/ICG_2025_HW2.dir/clean
 
 src/CMakeFiles/ICG_2025_HW2.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "D:/2025 fall/CG/ICG_2025_HW2" "D:/2025 fall/CG/ICG_2025_HW2/src" "D:/2025 fall/CG/ICG_2025_HW2/build" "D:/2025 fall/CG/ICG_2025_HW2/build/src" "D:/2025 fall/CG/ICG_2025_HW2/build/src/CMakeFiles/ICG_2025_HW2.dir/DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/src D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/src D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/src/CMakeFiles/ICG_2025_HW2.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/CMakeFiles/ICG_2025_HW2.dir/depend
 

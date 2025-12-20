@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/2025 fall/CG/ICG_2025_HW2/build"
+			"value" : "d:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -599,7 +599,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles/pkgRedirects"
+			"value" : "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -671,7 +671,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/2025 fall/CG/ICG_2025_HW2"
+			"value" : "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1663,7 +1663,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glfw"
+			"value" : "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glfw"
 		},
 		{
 			"name" : "GLFW_BUILD_DOCS",
@@ -1783,7 +1783,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/2025 fall/CG/ICG_2025_HW2/extern/glfw"
+			"value" : "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glfw"
 		},
 		{
 			"name" : "GLFW_USE_HYBRID_HPG",
@@ -2047,7 +2047,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/2025 fall/CG/ICG_2025_HW2/build"
+			"value" : "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build"
 		},
 		{
 			"name" : "ICG_2025_HW2_IS_TOP_LEVEL",
@@ -2071,7 +2071,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/2025 fall/CG/ICG_2025_HW2"
+			"value" : "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project"
 		},
 		{
 			"name" : "XINPUT_H_FOUND",
@@ -2119,7 +2119,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glad"
+			"value" : "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glad"
 		},
 		{
 			"name" : "glad_IS_TOP_LEVEL",
@@ -2143,7 +2143,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/2025 fall/CG/ICG_2025_HW2/extern/glad"
+			"value" : "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glad"
 		},
 		{
 			"name" : "glm_BINARY_DIR",
@@ -2155,7 +2155,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glm"
+			"value" : "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glm"
 		},
 		{
 			"name" : "glm_IS_TOP_LEVEL",
@@ -2179,7 +2179,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/2025 fall/CG/ICG_2025_HW2/extern/glm"
+			"value" : "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glm"
 		}
 	],
 	"kind" : "cache",

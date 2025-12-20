@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/2025 fall/CG/ICG_2025_HW2/extern/glm/glm/detail/glm.cpp" "extern/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj" "gcc" "extern/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj.d"
+  "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glm/glm/detail/glm.cpp" "extern/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj" "gcc" "extern/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

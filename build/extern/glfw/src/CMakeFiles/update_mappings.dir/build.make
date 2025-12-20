@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:/2025 fall/CG/ICG_2025_HW2"
+CMAKE_SOURCE_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:/2025 fall/CG/ICG_2025_HW2/build"
+CMAKE_BINARY_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build
 
 # Utility rule file for update_mappings.
 
@@ -67,8 +67,8 @@ include extern/glfw/src/CMakeFiles/update_mappings.dir/compiler_depend.make
 include extern/glfw/src/CMakeFiles/update_mappings.dir/progress.make
 
 extern/glfw/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/extern/glfw/src" && "C:/Program Files/CMake/bin/cmake.exe" -P "D:/2025 fall/CG/ICG_2025_HW2/extern/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glfw/src && "C:/Program Files/CMake/bin/cmake.exe" -P D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 extern/glfw/src/CMakeFiles/update_mappings.dir/codegen:
 .PHONY : extern/glfw/src/CMakeFiles/update_mappings.dir/codegen
@@ -82,10 +82,10 @@ extern/glfw/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : extern/glfw/src/CMakeFiles/update_mappings.dir/build
 
 extern/glfw/src/CMakeFiles/update_mappings.dir/clean:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glfw/src" && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
 .PHONY : extern/glfw/src/CMakeFiles/update_mappings.dir/clean
 
 extern/glfw/src/CMakeFiles/update_mappings.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "D:/2025 fall/CG/ICG_2025_HW2" "D:/2025 fall/CG/ICG_2025_HW2/extern/glfw/src" "D:/2025 fall/CG/ICG_2025_HW2/build" "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glfw/src" "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glfw/src D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glfw/src D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : extern/glfw/src/CMakeFiles/update_mappings.dir/depend
 

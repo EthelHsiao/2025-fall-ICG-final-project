@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:/2025 fall/CG/ICG_2025_HW2"
+CMAKE_SOURCE_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:/2025 fall/CG/ICG_2025_HW2/build"
+CMAKE_BINARY_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build
 
 # Include any dependencies generated for this target.
 include extern/glm/glm/CMakeFiles/glm.dir/depend.make
@@ -74,18 +74,18 @@ extern/glm/glm/CMakeFiles/glm.dir/codegen:
 
 extern/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj: extern/glm/glm/CMakeFiles/glm.dir/flags.make
 extern/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj: extern/glm/glm/CMakeFiles/glm.dir/includes_CXX.rsp
-extern/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj: D:/2025\ fall/CG/ICG_2025_HW2/extern/glm/glm/detail/glm.cpp
+extern/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj: D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glm/glm/detail/glm.cpp
 extern/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj: extern/glm/glm/CMakeFiles/glm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glm/glm" && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj -MF CMakeFiles/glm.dir/detail/glm.cpp.obj.d -o CMakeFiles/glm.dir/detail/glm.cpp.obj -c "D:/2025 fall/CG/ICG_2025_HW2/extern/glm/glm/detail/glm.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj"
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glm/glm && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj -MF CMakeFiles/glm.dir/detail/glm.cpp.obj.d -o CMakeFiles/glm.dir/detail/glm.cpp.obj -c D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glm/glm/detail/glm.cpp
 
 extern/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glm.dir/detail/glm.cpp.i"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glm/glm" && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:/2025 fall/CG/ICG_2025_HW2/extern/glm/glm/detail/glm.cpp" > CMakeFiles/glm.dir/detail/glm.cpp.i
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glm/glm && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glm/glm/detail/glm.cpp > CMakeFiles/glm.dir/detail/glm.cpp.i
 
 extern/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glm.dir/detail/glm.cpp.s"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glm/glm" && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:/2025 fall/CG/ICG_2025_HW2/extern/glm/glm/detail/glm.cpp" -o CMakeFiles/glm.dir/detail/glm.cpp.s
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glm/glm && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glm/glm/detail/glm.cpp -o CMakeFiles/glm.dir/detail/glm.cpp.s
 
 # Object files for target glm
 glm_OBJECTS = \
@@ -97,19 +97,19 @@ glm_EXTERNAL_OBJECTS =
 extern/glm/glm/libglm.a: extern/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj
 extern/glm/glm/libglm.a: extern/glm/glm/CMakeFiles/glm.dir/build.make
 extern/glm/glm/libglm.a: extern/glm/glm/CMakeFiles/glm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libglm.a"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glm/glm" && $(CMAKE_COMMAND) -P CMakeFiles/glm.dir/cmake_clean_target.cmake
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glm/glm" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glm.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libglm.a"
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glm/glm && $(CMAKE_COMMAND) -P CMakeFiles/glm.dir/cmake_clean_target.cmake
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glm/glm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 extern/glm/glm/CMakeFiles/glm.dir/build: extern/glm/glm/libglm.a
 .PHONY : extern/glm/glm/CMakeFiles/glm.dir/build
 
 extern/glm/glm/CMakeFiles/glm.dir/clean:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glm/glm" && $(CMAKE_COMMAND) -P CMakeFiles/glm.dir/cmake_clean.cmake
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glm/glm && $(CMAKE_COMMAND) -P CMakeFiles/glm.dir/cmake_clean.cmake
 .PHONY : extern/glm/glm/CMakeFiles/glm.dir/clean
 
 extern/glm/glm/CMakeFiles/glm.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "D:/2025 fall/CG/ICG_2025_HW2" "D:/2025 fall/CG/ICG_2025_HW2/extern/glm/glm" "D:/2025 fall/CG/ICG_2025_HW2/build" "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glm/glm" "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glm/glm/CMakeFiles/glm.dir/DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glm/glm D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glm/glm D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glm/glm/CMakeFiles/glm.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : extern/glm/glm/CMakeFiles/glm.dir/depend
 

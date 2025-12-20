@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:/2025 fall/CG/ICG_2025_HW2"
+CMAKE_SOURCE_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:/2025 fall/CG/ICG_2025_HW2/build"
+CMAKE_BINARY_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build
 
 # Include any dependencies generated for this target.
 include extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/depend.make
@@ -74,18 +74,18 @@ extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/codegen:
 
 extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.obj: extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/flags.make
 extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.obj: extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/includes_CXX.rsp
-extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.obj: D:/2025\ fall/CG/ICG_2025_HW2/extern/tinyobjloader/src/tiny_obj_loader.cc
+extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.obj: D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/tinyobjloader/src/tiny_obj_loader.cc
 extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.obj: extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.obj"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/tinyobjloader" && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.obj -MF CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.obj.d -o CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.obj -c "D:/2025 fall/CG/ICG_2025_HW2/extern/tinyobjloader/src/tiny_obj_loader.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.obj"
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/tinyobjloader && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.obj -MF CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.obj.d -o CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.obj -c D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/tinyobjloader/src/tiny_obj_loader.cc
 
 extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.i"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/tinyobjloader" && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:/2025 fall/CG/ICG_2025_HW2/extern/tinyobjloader/src/tiny_obj_loader.cc" > CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.i
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/tinyobjloader && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/tinyobjloader/src/tiny_obj_loader.cc > CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.i
 
 extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.s"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/tinyobjloader" && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:/2025 fall/CG/ICG_2025_HW2/extern/tinyobjloader/src/tiny_obj_loader.cc" -o CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.s
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/tinyobjloader && D:/w64devkit/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/tinyobjloader/src/tiny_obj_loader.cc -o CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.s
 
 # Object files for target tinyobjloader
 tinyobjloader_OBJECTS = \
@@ -97,19 +97,19 @@ tinyobjloader_EXTERNAL_OBJECTS =
 extern/tinyobjloader/libtinyobjloader.a: extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.obj
 extern/tinyobjloader/libtinyobjloader.a: extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/build.make
 extern/tinyobjloader/libtinyobjloader.a: extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libtinyobjloader.a"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/tinyobjloader" && $(CMAKE_COMMAND) -P CMakeFiles/tinyobjloader.dir/cmake_clean_target.cmake
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/tinyobjloader" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tinyobjloader.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libtinyobjloader.a"
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/tinyobjloader && $(CMAKE_COMMAND) -P CMakeFiles/tinyobjloader.dir/cmake_clean_target.cmake
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/tinyobjloader && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tinyobjloader.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/build: extern/tinyobjloader/libtinyobjloader.a
 .PHONY : extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/build
 
 extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/clean:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/tinyobjloader" && $(CMAKE_COMMAND) -P CMakeFiles/tinyobjloader.dir/cmake_clean.cmake
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/tinyobjloader && $(CMAKE_COMMAND) -P CMakeFiles/tinyobjloader.dir/cmake_clean.cmake
 .PHONY : extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/clean
 
 extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "D:/2025 fall/CG/ICG_2025_HW2" "D:/2025 fall/CG/ICG_2025_HW2/extern/tinyobjloader" "D:/2025 fall/CG/ICG_2025_HW2/build" "D:/2025 fall/CG/ICG_2025_HW2/build/extern/tinyobjloader" "D:/2025 fall/CG/ICG_2025_HW2/build/extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/tinyobjloader D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/tinyobjloader D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/depend
 

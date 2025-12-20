@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:/2025 fall/CG/ICG_2025_HW2"
+CMAKE_SOURCE_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:/2025 fall/CG/ICG_2025_HW2/build"
+CMAKE_BINARY_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build
 
 # Include any dependencies generated for this target.
 include extern/glad/CMakeFiles/glad.dir/depend.make
@@ -74,18 +74,18 @@ extern/glad/CMakeFiles/glad.dir/codegen:
 
 extern/glad/CMakeFiles/glad.dir/src/glad.c.obj: extern/glad/CMakeFiles/glad.dir/flags.make
 extern/glad/CMakeFiles/glad.dir/src/glad.c.obj: extern/glad/CMakeFiles/glad.dir/includes_C.rsp
-extern/glad/CMakeFiles/glad.dir/src/glad.c.obj: D:/2025\ fall/CG/ICG_2025_HW2/extern/glad/src/glad.c
+extern/glad/CMakeFiles/glad.dir/src/glad.c.obj: D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glad/src/glad.c
 extern/glad/CMakeFiles/glad.dir/src/glad.c.obj: extern/glad/CMakeFiles/glad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object extern/glad/CMakeFiles/glad.dir/src/glad.c.obj"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glad" && D:/w64devkit/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/glad/CMakeFiles/glad.dir/src/glad.c.obj -MF CMakeFiles/glad.dir/src/glad.c.obj.d -o CMakeFiles/glad.dir/src/glad.c.obj -c "D:/2025 fall/CG/ICG_2025_HW2/extern/glad/src/glad.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object extern/glad/CMakeFiles/glad.dir/src/glad.c.obj"
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glad && D:/w64devkit/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT extern/glad/CMakeFiles/glad.dir/src/glad.c.obj -MF CMakeFiles/glad.dir/src/glad.c.obj.d -o CMakeFiles/glad.dir/src/glad.c.obj -c D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glad/src/glad.c
 
 extern/glad/CMakeFiles/glad.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glad.dir/src/glad.c.i"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glad" && D:/w64devkit/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:/2025 fall/CG/ICG_2025_HW2/extern/glad/src/glad.c" > CMakeFiles/glad.dir/src/glad.c.i
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glad && D:/w64devkit/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glad/src/glad.c > CMakeFiles/glad.dir/src/glad.c.i
 
 extern/glad/CMakeFiles/glad.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glad.dir/src/glad.c.s"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glad" && D:/w64devkit/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:/2025 fall/CG/ICG_2025_HW2/extern/glad/src/glad.c" -o CMakeFiles/glad.dir/src/glad.c.s
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glad && D:/w64devkit/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glad/src/glad.c -o CMakeFiles/glad.dir/src/glad.c.s
 
 # Object files for target glad
 glad_OBJECTS = \
@@ -97,19 +97,19 @@ glad_EXTERNAL_OBJECTS =
 extern/glad/libglad.a: extern/glad/CMakeFiles/glad.dir/src/glad.c.obj
 extern/glad/libglad.a: extern/glad/CMakeFiles/glad.dir/build.make
 extern/glad/libglad.a: extern/glad/CMakeFiles/glad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libglad.a"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glad" && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean_target.cmake
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glad" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glad.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libglad.a"
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glad && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean_target.cmake
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glad && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glad.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 extern/glad/CMakeFiles/glad.dir/build: extern/glad/libglad.a
 .PHONY : extern/glad/CMakeFiles/glad.dir/build
 
 extern/glad/CMakeFiles/glad.dir/clean:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glad" && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean.cmake
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glad && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean.cmake
 .PHONY : extern/glad/CMakeFiles/glad.dir/clean
 
 extern/glad/CMakeFiles/glad.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "D:/2025 fall/CG/ICG_2025_HW2" "D:/2025 fall/CG/ICG_2025_HW2/extern/glad" "D:/2025 fall/CG/ICG_2025_HW2/build" "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glad" "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glad/CMakeFiles/glad.dir/DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glad D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glad D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glad/CMakeFiles/glad.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : extern/glad/CMakeFiles/glad.dir/depend
 

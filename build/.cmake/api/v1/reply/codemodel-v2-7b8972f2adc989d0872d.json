@@ -235,35 +235,35 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "ICG_2025_HW2::@145eef247bfb46b6828c",
-					"jsonFile" : "target-ICG_2025_HW2-Debug-fa526ff2af356e8f9296.json",
+					"jsonFile" : "target-ICG_2025_HW2-Debug-3fcffa20d5a153d3f885.json",
 					"name" : "ICG_2025_HW2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 8,
 					"id" : "glad::@6d81f930c6bec73dde7b",
-					"jsonFile" : "target-glad-Debug-1b016f8b738d7f9ee417.json",
+					"jsonFile" : "target-glad-Debug-c5198a3710f8159a8308.json",
 					"name" : "glad",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "glfw::@81d610105217ee077306",
-					"jsonFile" : "target-glfw-Debug-0f3fd22531ab3a25f61c.json",
+					"jsonFile" : "target-glfw-Debug-0763daea2eab324cfec6.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "glm::@fd9a7823937da46381f5",
-					"jsonFile" : "target-glm-Debug-84ef9214728756c15493.json",
+					"jsonFile" : "target-glm-Debug-48bbf7d385481e38f2f7.json",
 					"name" : "glm",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 9,
 					"id" : "tinyobjloader::@22fa7a90b6df3fa2547f",
-					"jsonFile" : "target-tinyobjloader-Debug-a7f3131f25c49dcbea22.json",
+					"jsonFile" : "target-tinyobjloader-Debug-251179a9d37e108e4b56.json",
 					"name" : "tinyobjloader",
 					"projectIndex" : 0
 				},
@@ -287,8 +287,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/2025 fall/CG/ICG_2025_HW2/build",
-		"source" : "D:/2025 fall/CG/ICG_2025_HW2"
+		"build" : "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build",
+		"source" : "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project"
 	},
 	"version" : 
 	{

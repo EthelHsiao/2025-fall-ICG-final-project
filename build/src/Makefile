@@ -57,10 +57,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:/2025 fall/CG/ICG_2025_HW2"
+CMAKE_SOURCE_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:/2025 fall/CG/ICG_2025_HW2/build"
+CMAKE_BINARY_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" "D:/2025 fall/CG/ICG_2025_HW2/build/src//CMakeFiles/progress.marks"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" 0
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/src//CMakeFiles/progress.marks
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/ICG_2025_HW2.dir/rule:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ICG_2025_HW2.dir/rule
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ICG_2025_HW2.dir/rule
 .PHONY : src/CMakeFiles/ICG_2025_HW2.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ ICG_2025_HW2: src/CMakeFiles/ICG_2025_HW2.dir/rule
 
 # fast build rule for target.
 ICG_2025_HW2/fast:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ICG_2025_HW2.dir/build.make src/CMakeFiles/ICG_2025_HW2.dir/build
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ICG_2025_HW2.dir/build.make src/CMakeFiles/ICG_2025_HW2.dir/build
 .PHONY : ICG_2025_HW2/fast
 
 main.obj: main.cpp.obj
@@ -180,7 +180,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ICG_2025_HW2.dir/build.make src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.obj
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ICG_2025_HW2.dir/build.make src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -188,7 +188,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ICG_2025_HW2.dir/build.make src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.i
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ICG_2025_HW2.dir/build.make src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -196,7 +196,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ICG_2025_HW2.dir/build.make src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.s
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ICG_2025_HW2.dir/build.make src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 stb_image.obj: stb_image.cpp.obj
@@ -204,7 +204,7 @@ stb_image.obj: stb_image.cpp.obj
 
 # target to build an object file
 stb_image.cpp.obj:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ICG_2025_HW2.dir/build.make src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ICG_2025_HW2.dir/build.make src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj
 .PHONY : stb_image.cpp.obj
 
 stb_image.i: stb_image.cpp.i
@@ -212,7 +212,7 @@ stb_image.i: stb_image.cpp.i
 
 # target to preprocess a source file
 stb_image.cpp.i:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ICG_2025_HW2.dir/build.make src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.i
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ICG_2025_HW2.dir/build.make src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.i
 .PHONY : stb_image.cpp.i
 
 stb_image.s: stb_image.cpp.s
@@ -220,7 +220,7 @@ stb_image.s: stb_image.cpp.s
 
 # target to generate assembly for a file
 stb_image.cpp.s:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ICG_2025_HW2.dir/build.make src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.s
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/ICG_2025_HW2.dir/build.make src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.s
 .PHONY : stb_image.cpp.s
 
 # Help Target
@@ -253,6 +253,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -132,15 +132,15 @@
 			[
 				{
 					"backtrace" : 7,
-					"path" : "D:/2025 fall/CG/ICG_2025_HW2/extern/glfw/include"
+					"path" : "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glfw/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "D:/2025 fall/CG/ICG_2025_HW2/extern/glfw/src"
+					"path" : "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glfw/src"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glfw/src"
+					"path" : "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glfw/src"
 				}
 			],
 			"language" : "C",

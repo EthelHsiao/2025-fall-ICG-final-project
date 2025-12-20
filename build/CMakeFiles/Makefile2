@@ -54,10 +54,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:/2025 fall/CG/ICG_2025_HW2"
+CMAKE_SOURCE_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:/2025 fall/CG/ICG_2025_HW2/build"
+CMAKE_BINARY_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -277,18 +277,18 @@ src/clean: src/CMakeFiles/ICG_2025_HW2.dir/clean
 # All Build rule for target.
 src/CMakeFiles/ICG_2025_HW2.dir/all: extern/glfw/src/CMakeFiles/glfw.dir/all
 src/CMakeFiles/ICG_2025_HW2.dir/all: extern/glm/glm/CMakeFiles/glm.dir/all
-src/CMakeFiles/ICG_2025_HW2.dir/all: extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/all
 src/CMakeFiles/ICG_2025_HW2.dir/all: extern/glad/CMakeFiles/glad.dir/all
+src/CMakeFiles/ICG_2025_HW2.dir/all: extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ICG_2025_HW2.dir/build.make src/CMakeFiles/ICG_2025_HW2.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/ICG_2025_HW2.dir/build.make src/CMakeFiles/ICG_2025_HW2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" --progress-num=1,2,3 "Built target ICG_2025_HW2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles --progress-num=1,2,3 "Built target ICG_2025_HW2"
 .PHONY : src/CMakeFiles/ICG_2025_HW2.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/ICG_2025_HW2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" 31
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/ICG_2025_HW2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/ICG_2025_HW2.dir/rule
 
 # Convenience name for target.
@@ -312,14 +312,14 @@ src/CMakeFiles/ICG_2025_HW2.dir/clean:
 extern/glfw/CMakeFiles/uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f extern/glfw/CMakeFiles/uninstall.dir/build.make extern/glfw/CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/glfw/CMakeFiles/uninstall.dir/build.make extern/glfw/CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : extern/glfw/CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 extern/glfw/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/glfw/CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles 0
 .PHONY : extern/glfw/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -343,14 +343,14 @@ extern/glfw/CMakeFiles/uninstall.dir/clean:
 extern/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f extern/glfw/src/CMakeFiles/glfw.dir/build.make extern/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/glfw/src/CMakeFiles/glfw.dir/build.make extern/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" --progress-num=6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles --progress-num=6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27 "Built target glfw"
 .PHONY : extern/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 extern/glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" 22
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/glfw/src/CMakeFiles/glfw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles 0
 .PHONY : extern/glfw/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.
@@ -374,14 +374,14 @@ extern/glfw/src/CMakeFiles/glfw.dir/clean:
 extern/glfw/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f extern/glfw/src/CMakeFiles/update_mappings.dir/build.make extern/glfw/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/glfw/src/CMakeFiles/update_mappings.dir/build.make extern/glfw/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" --progress-num=32 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles --progress-num=32 "Built target update_mappings"
 .PHONY : extern/glfw/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
 extern/glfw/src/CMakeFiles/update_mappings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/glfw/src/CMakeFiles/update_mappings.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles 0
 .PHONY : extern/glfw/src/CMakeFiles/update_mappings.dir/rule
 
 # Convenience name for target.
@@ -405,14 +405,14 @@ extern/glfw/src/CMakeFiles/update_mappings.dir/clean:
 extern/glm/glm/CMakeFiles/glm.dir/all:
 	$(MAKE) $(MAKESILENT) -f extern/glm/glm/CMakeFiles/glm.dir/build.make extern/glm/glm/CMakeFiles/glm.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/glm/glm/CMakeFiles/glm.dir/build.make extern/glm/glm/CMakeFiles/glm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" --progress-num=28,29 "Built target glm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles --progress-num=28,29 "Built target glm"
 .PHONY : extern/glm/glm/CMakeFiles/glm.dir/all
 
 # Build rule for subdir invocation for target.
 extern/glm/glm/CMakeFiles/glm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/glm/glm/CMakeFiles/glm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles 0
 .PHONY : extern/glm/glm/CMakeFiles/glm.dir/rule
 
 # Convenience name for target.
@@ -436,14 +436,14 @@ extern/glm/glm/CMakeFiles/glm.dir/clean:
 extern/glad/CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f extern/glad/CMakeFiles/glad.dir/build.make extern/glad/CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/glad/CMakeFiles/glad.dir/build.make extern/glad/CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" --progress-num=4,5 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles --progress-num=4,5 "Built target glad"
 .PHONY : extern/glad/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
 extern/glad/CMakeFiles/glad.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/glad/CMakeFiles/glad.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles 0
 .PHONY : extern/glad/CMakeFiles/glad.dir/rule
 
 # Convenience name for target.
@@ -467,14 +467,14 @@ extern/glad/CMakeFiles/glad.dir/clean:
 extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/all:
 	$(MAKE) $(MAKESILENT) -f extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/build.make extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/depend
 	$(MAKE) $(MAKESILENT) -f extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/build.make extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" --progress-num=30,31 "Built target tinyobjloader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles --progress-num=30,31 "Built target tinyobjloader"
 .PHONY : extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/all
 
 # Build rule for subdir invocation for target.
 extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles 0
 .PHONY : extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/rule
 
 # Convenience name for target.

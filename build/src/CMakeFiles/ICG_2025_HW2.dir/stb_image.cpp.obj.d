@@ -1,6 +1,6 @@
 src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj: \
- D:/2025\ fall/CG/ICG_2025_HW2/src/stb_image.cpp \
- D:/2025\ fall/CG/ICG_2025_HW2/src/header/stb_image.h \
+ D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/src/stb_image.cpp \
+ D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/src/header/stb_image.h \
  D:/w64devkit/x86_64-w64-mingw32/include/stdio.h \
  D:/w64devkit/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  D:/w64devkit/x86_64-w64-mingw32/include/corecrt.h \

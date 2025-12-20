@@ -1,4 +1,4 @@
-# Install script for directory: D:/2025 fall/CG/ICG_2025_HW2/extern
+# Install script for directory: D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,16 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/2025 fall/CG/ICG_2025_HW2/build/extern/glfw/cmake_install.cmake")
-  include("D:/2025 fall/CG/ICG_2025_HW2/build/extern/glm/cmake_install.cmake")
-  include("D:/2025 fall/CG/ICG_2025_HW2/build/extern/glad/cmake_install.cmake")
-  include("D:/2025 fall/CG/ICG_2025_HW2/build/extern/tinyobjloader/cmake_install.cmake")
+  include("D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glfw/cmake_install.cmake")
+  include("D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glm/cmake_install.cmake")
+  include("D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glad/cmake_install.cmake")
+  include("D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/tinyobjloader/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/2025 fall/CG/ICG_2025_HW2/build/extern/install_local_manifest.txt"
+  file(WRITE "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

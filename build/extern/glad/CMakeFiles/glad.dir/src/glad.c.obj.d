@@ -1,5 +1,5 @@
 extern/glad/CMakeFiles/glad.dir/src/glad.c.obj: \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glad/src/glad.c \
+ D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glad/src/glad.c \
  D:/w64devkit/x86_64-w64-mingw32/include/stdio.h \
  D:/w64devkit/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  D:/w64devkit/x86_64-w64-mingw32/include/corecrt.h \
@@ -23,8 +23,8 @@ extern/glad/CMakeFiles/glad.dir/src/glad.c.obj: \
  D:/w64devkit/x86_64-w64-mingw32/include/errno.h \
  D:/w64devkit/x86_64-w64-mingw32/include/string.h \
  D:/w64devkit/x86_64-w64-mingw32/include/sec_api/string_s.h \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glad/include/glad/glad.h \
- D:/2025\ fall/CG/ICG_2025_HW2/extern/glad/include/KHR/khrplatform.h \
+ D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glad/include/glad/glad.h \
+ D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glad/include/KHR/khrplatform.h \
  D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
  D:/w64devkit/x86_64-w64-mingw32/include/stdint.h \
  D:/w64devkit/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \

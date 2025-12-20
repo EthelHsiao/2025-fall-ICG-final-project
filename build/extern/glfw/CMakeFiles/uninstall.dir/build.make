@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:/2025 fall/CG/ICG_2025_HW2"
+CMAKE_SOURCE_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:/2025 fall/CG/ICG_2025_HW2/build"
+CMAKE_BINARY_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include extern/glfw/CMakeFiles/uninstall.dir/compiler_depend.make
 include extern/glfw/CMakeFiles/uninstall.dir/progress.make
 
 extern/glfw/CMakeFiles/uninstall:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glfw" && "C:/Program Files/CMake/bin/cmake.exe" -P "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glfw/cmake_uninstall.cmake"
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glfw && "C:/Program Files/CMake/bin/cmake.exe" -P D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glfw/cmake_uninstall.cmake
 
 extern/glfw/CMakeFiles/uninstall.dir/codegen:
 .PHONY : extern/glfw/CMakeFiles/uninstall.dir/codegen
@@ -81,10 +81,10 @@ extern/glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : extern/glfw/CMakeFiles/uninstall.dir/build
 
 extern/glfw/CMakeFiles/uninstall.dir/clean:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glfw" && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : extern/glfw/CMakeFiles/uninstall.dir/clean
 
 extern/glfw/CMakeFiles/uninstall.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "D:/2025 fall/CG/ICG_2025_HW2" "D:/2025 fall/CG/ICG_2025_HW2/extern/glfw" "D:/2025 fall/CG/ICG_2025_HW2/build" "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glfw" "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/extern/glfw D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glfw D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : extern/glfw/CMakeFiles/uninstall.dir/depend
 

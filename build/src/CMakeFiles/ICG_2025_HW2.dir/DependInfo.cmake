@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/2025 fall/CG/ICG_2025_HW2/src/main.cpp" "src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.obj" "gcc" "src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.obj.d"
-  "D:/2025 fall/CG/ICG_2025_HW2/src/stb_image.cpp" "src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj" "gcc" "src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj.d"
+  "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/src/main.cpp" "src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.obj" "gcc" "src/CMakeFiles/ICG_2025_HW2.dir/main.cpp.obj.d"
+  "D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/src/stb_image.cpp" "src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj" "gcc" "src/CMakeFiles/ICG_2025_HW2.dir/stb_image.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -57,10 +57,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:/2025 fall/CG/ICG_2025_HW2"
+CMAKE_SOURCE_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:/2025 fall/CG/ICG_2025_HW2/build"
+CMAKE_BINARY_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" "D:/2025 fall/CG/ICG_2025_HW2/build/extern/tinyobjloader//CMakeFiles/progress.marks"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/tinyobjloader/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" 0
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/tinyobjloader//CMakeFiles/progress.marks
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/tinyobjloader/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/tinyobjloader/clean
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/tinyobjloader/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/tinyobjloader/preinstall
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/tinyobjloader/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/tinyobjloader/preinstall
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/tinyobjloader/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/rule:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/rule
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/rule
 .PHONY : extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ tinyobjloader: extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/rule
 
 # fast build rule for target.
 tinyobjloader/fast:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/build.make extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/build
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/build.make extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/build
 .PHONY : tinyobjloader/fast
 
 src/tiny_obj_loader.obj: src/tiny_obj_loader.cc.obj
@@ -180,7 +180,7 @@ src/tiny_obj_loader.obj: src/tiny_obj_loader.cc.obj
 
 # target to build an object file
 src/tiny_obj_loader.cc.obj:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/build.make extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.obj
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/build.make extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.obj
 .PHONY : src/tiny_obj_loader.cc.obj
 
 src/tiny_obj_loader.i: src/tiny_obj_loader.cc.i
@@ -188,7 +188,7 @@ src/tiny_obj_loader.i: src/tiny_obj_loader.cc.i
 
 # target to preprocess a source file
 src/tiny_obj_loader.cc.i:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/build.make extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.i
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/build.make extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.i
 .PHONY : src/tiny_obj_loader.cc.i
 
 src/tiny_obj_loader.s: src/tiny_obj_loader.cc.s
@@ -196,7 +196,7 @@ src/tiny_obj_loader.s: src/tiny_obj_loader.cc.s
 
 # target to generate assembly for a file
 src/tiny_obj_loader.cc.s:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/build.make extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.s
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/build.make extern/tinyobjloader/CMakeFiles/tinyobjloader.dir/src/tiny_obj_loader.cc.s
 .PHONY : src/tiny_obj_loader.cc.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

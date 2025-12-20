@@ -57,10 +57,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:/2025 fall/CG/ICG_2025_HW2"
+CMAKE_SOURCE_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:/2025 fall/CG/ICG_2025_HW2/build"
+CMAKE_BINARY_DIR = D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" "D:/2025 fall/CG/ICG_2025_HW2/build/extern/glad//CMakeFiles/progress.marks"
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/glad/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:/2025 fall/CG/ICG_2025_HW2/build/CMakeFiles" 0
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/extern/glad//CMakeFiles/progress.marks
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/glad/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/glad/clean
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/glad/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/glad/preinstall
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/glad/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/glad/preinstall
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/glad/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/glad/CMakeFiles/glad.dir/rule:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/glad/CMakeFiles/glad.dir/rule
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 extern/glad/CMakeFiles/glad.dir/rule
 .PHONY : extern/glad/CMakeFiles/glad.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ glad: extern/glad/CMakeFiles/glad.dir/rule
 
 # fast build rule for target.
 glad/fast:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f extern/glad/CMakeFiles/glad.dir/build.make extern/glad/CMakeFiles/glad.dir/build
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f extern/glad/CMakeFiles/glad.dir/build.make extern/glad/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
 src/glad.obj: src/glad.c.obj
@@ -180,7 +180,7 @@ src/glad.obj: src/glad.c.obj
 
 # target to build an object file
 src/glad.c.obj:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f extern/glad/CMakeFiles/glad.dir/build.make extern/glad/CMakeFiles/glad.dir/src/glad.c.obj
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f extern/glad/CMakeFiles/glad.dir/build.make extern/glad/CMakeFiles/glad.dir/src/glad.c.obj
 .PHONY : src/glad.c.obj
 
 src/glad.i: src/glad.c.i
@@ -188,7 +188,7 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f extern/glad/CMakeFiles/glad.dir/build.make extern/glad/CMakeFiles/glad.dir/src/glad.c.i
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f extern/glad/CMakeFiles/glad.dir/build.make extern/glad/CMakeFiles/glad.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -196,7 +196,7 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(MAKE) $(MAKESILENT) -f extern/glad/CMakeFiles/glad.dir/build.make extern/glad/CMakeFiles/glad.dir/src/glad.c.s
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(MAKE) $(MAKESILENT) -f extern/glad/CMakeFiles/glad.dir/build.make extern/glad/CMakeFiles/glad.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "D:/2025 fall/CG/ICG_2025_HW2/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd D:/2025-fall-ICG-final-project/2025-fall-ICG-final-project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
